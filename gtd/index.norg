@@ -1,0 +1,26 @@
+@document.meta
+        title: index
+        description: 
+        author: neorg-user
+        categories: 
+        created: 2021-11-03
+        version: 0.1
+@end
+
+#contexts home
+- [ ] go shopping
+
+#waiting.for bugreport
+#contexts work my_project
+- [ ] fix the bug
+
+#contexts work
+- [ ] ask for more salary
+
+#contexts home today
+- [ ] feed my dog
+
+* My Project
+  #contexts someday my_project
+  - [ ] implement ui
+  - [ ] add more configuration options
