@@ -14,7 +14,7 @@
   You can see the module details and configurations {https://github.com/nvim-neorg/neorg/wiki/Getting-Things-Done}[here]
 
   Don't hesitate to play around in it, you can always restart~
-  from scratch by doing: `:git checkout %` (remove any change in this `index.norg` file)
+  from scratch by doing: `:!git checkout %` (remove any change in this `index.norg` file)
 
  ** Grasp the basics
     - [ ] You can complete this todo by doing `gtd` (`gtu` to undone it)
