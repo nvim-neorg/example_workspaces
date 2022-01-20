@@ -1,26 +1,69 @@
 @document.meta
         title: index
-        description: 
+        description: This is a file containing a tutorial project for GTD users
         author: neorg-user
         categories: 
         created: 2021-11-03
         version: 0.1
 @end
 
-#contexts home
-- [ ] go shopping
+* Meet GTD in Neorg
+  This project shows you everything you need to know in order~
+  to get you running with GTD in Neorg.
 
-#waiting.for bugreport
-#contexts work my_project
-- [ ] fix the bug
+  You can see the module details and configurations {https://github.com/nvim-neorg/neorg/wiki/Getting-Things-Done}[ere]
 
-#contexts work
-- [ ] ask for more salary
+  Don't hesitate to play around in it, you can always restart~
+  from scratch by doing: `:git checkout %` (remove any change in this `index.norg` file)
 
-#contexts home today
-- [ ] feed my dog
+ ** Grasp the basics
+    - [ ] You can complete this todo by doing `gtd` (`gtu` to undone it)
+    #contexts today
+    - [ ] This is a todo in your today list
+    > Want to see your today list ? Just do `:Neorg gtd views`, and press `t`.
+    > To close the view, press `<Esc>`
+    
+    - [ ] Plan this todo for later
+    > Move the cursor on the task, and type `:Neorg gtd edit`.
+    > You'll see a prompt asking you to modify the task. 
+    > Reschedule the todo for tomorrow by pressing `s`, and pressing `t`. Confirm with `<CR>`
+    > Want to see your calendar ? Do `:Neorg gtd views`, and press `s`.
 
-* My Project
-  #contexts someday my_project
-  - [ ] implement ui
-  - [ ] add more configuration options
+    #contexts home
+    - [ ] This is a task with a context
+    > A context is like a tag: it allows you to better categorize your tasks.
+    > Some common contexts include `home`, `computer`, `errands`...
+    > To add a context to the task, just write `#contexts your_context` on top of it
+    > To see your contexts, do `:Neorg gtd views` and press `c`.
+
+    - [ ] Create a new project
+    > To create a new project, you can go at the end of the file (or any file in this workspace really).
+    > Create a heading1 followed by the name of the project. (e.g `* This is a project`)
+    > Everything inside it will be part of the project, and every task inside it too.
+
+    - [ ] Organize with areas
+    > Create an area for each sphere of your life, such as `Work`, `Family`...
+    > To create an area, just place a Neorg marker, such as `| Work`
+    > Areas of focus will divide projects in the project view: `Neorg gtd views`, and type `p`
+    > (Want to know more about markers ? Go to: `:h neorg-markers`)
+
+ ** Tune your setup
+    Now that the ground is here, we'll add shiny new things, to help you manage your GTD.
+    By the way, you don't really know what GTD is? There's a great summary available {https://hamberg.no/gtd}[here]
+
+    - [ ] Add your todos from anywhere in Neorg
+    > To create a new task, you can do `:Neorg gtd capture`
+    > You can even add contexts and dates, and select where the task will be captured !
+
+    - [ ] Go and see the inbox file
+    > The `inbox` file is a special file in your gtd workspace, that can hold tasks and projects that are not processed.
+    > Try going to the {:inbox:} file, and create a new task. When you're done, come back here.
+    > You created the task ? Nice !
+    > To see all unprocessed tasks, go to `:Neorg gtd views` and press `u` (respectively, for projects: `<C-u>`)
+
+ ** One last thing...
+    - [ ] Stay connected !
+    > Want to ask some questions about Neorg GTD? 
+    > Want to know about the latest features and developments?
+    > You can join our Discord {https://discord.gg/xxZcYUJngw}[here] !
+
