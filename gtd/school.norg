@@ -1,0 +1,43 @@
+@document.meta
+        title: school
+        description: 
+        authors: gtd-user
+        categories: 
+        created: 2022-03-15
+        version: 0.0.11
+@end
+
+| Uni
+
+* Computer science
+  - [-] Watch the lecture from Professor Max again
+
+  #contexts library
+  - [ ] Read the book Professor Aloof recommended
+
+| _
+
+| Doctor Paper
+
+#contexts university
+#waiting.for Professor Bob
+- [ ] discuss with supervisor
+
+* Research
+  #contexts library
+  - [x] Get the book "Chemistry inside computers"
+  - [ ] finish reading book from Maxwell
+  - [?] get more books
+  - [!] summarize literature
+
+* Experiment
+  #contexts laboratory
+  - [x] Put the oil inside the computer
+  - [ ] measure the oxygen content
+  - [_] Do a second experiment with hydrogen
+  - [ ] clean up
+
+  #contexts library
+  - [ ] compare results with the latest studies
+
+| _
