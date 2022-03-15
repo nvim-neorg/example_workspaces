@@ -46,6 +46,9 @@
     > To create an area, just place a Neorg marker, such as `| Work`
     > Areas of focus will divide projects in the project view: `Neorg gtd views`, and type `p`
     > (Want to know more about markers ? Go to: `:h neorg-markers`)
+    > You can find some examples for areas of focus and project in these files:{:$/programming:}, {:$/school:}
+    > Notice that you don't have to organize your tasks in different files like done here.
+    > You can also keep everything in one big file or split it up even more.
 
  ** Tune your setup
     Now that the ground is here, we'll add shiny new things, to help you manage your GTD.

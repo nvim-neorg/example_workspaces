@@ -1,0 +1,28 @@
+@document.meta
+        title: programming
+        description: 
+        authors: random user
+        categories: 
+        created: 2022-03-14
+        version: 0.0.11
+@end
+
+| programming
+
+* Neorg
+  - [ ] Indent engine
+  - [_] Replicate emacs-org
+  - [x] Great gtd
+
+* Neorg Telescope
+  - [ ] More amazing pickers
+  - [x] Picker to insert link
+  #contexts today
+  - [-] Gtd pickers
+
+* Neorg Zettelkasten
+  #contexts home
+  #waiting.for vhyrro
+  - [ ] Write specs
+
+| _
