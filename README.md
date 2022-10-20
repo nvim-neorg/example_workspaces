@@ -12,6 +12,8 @@ To use the tutorial, create a new workspace in your config, pointing to the gtd 
 
 ```lua
 require("neorg").setup({
+  load = {
+    ["core.defaults"] = {},
     ["core.norg.dirman"] = {
       config = {
         workspaces = {
@@ -24,6 +26,7 @@ require("neorg").setup({
         workspace = "example_gtd",
       },
     },
+  }
 })
 ```
 
